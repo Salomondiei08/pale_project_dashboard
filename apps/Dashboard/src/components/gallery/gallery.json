@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_images_galleries",
+  "info": {
+    "displayName": "Images",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "evenement": {
+      "type": "string"
+    },
+    "Images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

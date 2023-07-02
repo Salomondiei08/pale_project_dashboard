@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "details_projets",
+  "info": {
+    "singularName": "details-projet",
+    "pluralName": "details-projets",
+    "displayName": "Details projet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Client": {
+      "type": "string"
+    },
+    "Chef_Projets": {
+      "type": "string"
+    },
+    "Date_debut": {
+      "type": "date"
+    },
+    "Date_fin": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "projet": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::projet.projet",
+      "inversedBy": "details_projet"
+    }
+  }
+}

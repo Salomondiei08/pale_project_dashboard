@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projets",
+  "info": {
+    "singularName": "projet",
+    "pluralName": "projets",
+    "displayName": "Projets",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Ville": {
+      "type": "string"
+    },
+    "details_projet": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::details-projet.details-projet",
+      "mappedBy": "projet"
+    },
+    "NameProjet": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
