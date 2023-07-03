@@ -5,7 +5,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon
+#Icon
 .Spotlight-V100
 .Trashes
 ._*
@@ -36,52 +36,52 @@ $RECYCLE.BIN/
 # Packages
 ############################
 
-*.7z
-*.csv
-*.dat
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.seed
-*.so
-*.swo
-*.swp
-*.swn
-*.swm
-*.out
-*.pid
+#*.7z
+#*.csv
+#*.dat
+#*.dmg
+#*.gz
+#*.iso
+#*.jar
+#*.rar
+#*.tar
+#*.zip
+#*.com
+#*.class
+#*.dll
+#*.exe
+#*.o
+#*.seed
+#*.so
+#*.swo
+#*.swp
+#*.swn
+#*.swm
+#*.out
+#*.pid
 
 
 ############################
 # Logs and databases
 ############################
 
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
+#.tmp
+#*.log
+#*.sql
+#*.sqlite
+#*.sqlite3
 
 
 ############################
 # Misc.
 ############################
 
-*#
+#*#
 ssl
 .idea
 nbproject
-public/uploads/*
-!public/uploads/.gitkeep
+#public/uploads/*
+#!public/uploads/.gitkeep
 
 ############################
 # Node.js
@@ -99,17 +99,18 @@ node_modules
 # Tests
 ############################
 
-testApp
-coverage
+
+#testApp
+#coverage
 
 ############################
 # Strapi
 ############################
 
-#env
+env
 license.txt
 exports
 *.cache
 dist
 build
-.strapi-updater.json
+#.strapi-updater.json
