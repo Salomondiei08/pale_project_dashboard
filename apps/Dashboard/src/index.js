@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  //Fabrice Konan
   /**
    * An asynchronous register function that runs before
    * your application is initialized.
